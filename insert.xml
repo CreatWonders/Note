@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:text="Title"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:textSize="30dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Context"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/textContext"
+            android:layout_width="match_parent"
+            android:textSize="30dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/textTime"
+            android:layout_width="match_parent"
+            android:textSize="30dp"/>
+    </TableRow>
+
+</TableLayout>
